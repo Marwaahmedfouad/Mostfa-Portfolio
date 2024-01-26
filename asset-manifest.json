@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mostfa-Portfolio/static/css/main.2272d5d6.css",
-    "main.js": "/Mostfa-Portfolio/static/js/main.5c1250d2.js",
+    "main.js": "/Mostfa-Portfolio/static/js/main.b25009c5.js",
     "static/js/787.917857b7.chunk.js": "/Mostfa-Portfolio/static/js/787.917857b7.chunk.js",
     "static/media/img1.png": "/Mostfa-Portfolio/static/media/img1.c1b7457607932dcf140a.png",
     "static/media/digital_transformation.png": "/Mostfa-Portfolio/static/media/digital_transformation.6cb03ca3cdb88d784000.png",
@@ -22,11 +22,11 @@
     "static/media/close.svg": "/Mostfa-Portfolio/static/media/close.17825c74c3c6b6934429010ee3f913fd.svg",
     "index.html": "/Mostfa-Portfolio/index.html",
     "main.2272d5d6.css.map": "/Mostfa-Portfolio/static/css/main.2272d5d6.css.map",
-    "main.5c1250d2.js.map": "/Mostfa-Portfolio/static/js/main.5c1250d2.js.map",
+    "main.b25009c5.js.map": "/Mostfa-Portfolio/static/js/main.b25009c5.js.map",
     "787.917857b7.chunk.js.map": "/Mostfa-Portfolio/static/js/787.917857b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2272d5d6.css",
-    "static/js/main.5c1250d2.js"
+    "static/js/main.b25009c5.js"
   ]
 }
