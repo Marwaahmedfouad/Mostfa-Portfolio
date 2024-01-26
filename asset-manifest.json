@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Mostfa-Portfolio/static/css/main.2272d5d6.css",
+    "main.js": "/Mostfa-Portfolio/static/js/main.5c1250d2.js",
+    "static/js/787.917857b7.chunk.js": "/Mostfa-Portfolio/static/js/787.917857b7.chunk.js",
+    "static/media/img1.png": "/Mostfa-Portfolio/static/media/img1.c1b7457607932dcf140a.png",
+    "static/media/digital_transformation.png": "/Mostfa-Portfolio/static/media/digital_transformation.6cb03ca3cdb88d784000.png",
+    "static/media/mostafa.pdf": "/Mostfa-Portfolio/static/media/mostafa.c9214913afe2eacf731b.pdf",
+    "static/media/img3.jpg": "/Mostfa-Portfolio/static/media/img3.17aefcf2e858303f8f16.jpg",
+    "static/media/certificate2.png": "/Mostfa-Portfolio/static/media/certificate2.9c8afbd231212b9cbc53.png",
+    "static/media/img2.jpg": "/Mostfa-Portfolio/static/media/img2.405bd1f9a02dcabf1e0d.jpg",
+    "static/media/certificate4.png": "/Mostfa-Portfolio/static/media/certificate4.631958bdef9bd287808c.png",
+    "static/media/nasa_certificate.jpg": "/Mostfa-Portfolio/static/media/nasa_certificate.2cc63e1045aa2bffa9e8.jpg",
+    "static/media/frontend_certificate.png": "/Mostfa-Portfolio/static/media/frontend_certificate.d7cb6cacf56fb4ae61ad.png",
+    "static/media/certificate6.png": "/Mostfa-Portfolio/static/media/certificate6.b3473e7ed1638ee83a98.png",
+    "static/media/certificate1.png": "/Mostfa-Portfolio/static/media/certificate1.92cdf86e1d42eb096c47.png",
+    "static/media/certificate3333.jpeg": "/Mostfa-Portfolio/static/media/certificate3333.43138b09779cde911c23.jpeg",
+    "static/media/uxcertificate.png": "/Mostfa-Portfolio/static/media/uxcertificate.750f2cc90008b1008950.png",
+    "static/media/Niras_certificate_full.png": "/Mostfa-Portfolio/static/media/Niras_certificate_full.a2089d9b60a054261a31.png",
+    "static/media/certificate55555.png": "/Mostfa-Portfolio/static/media/certificate55555.710f6210258ee46e15ba.png",
+    "static/media/certificate7.jpg": "/Mostfa-Portfolio/static/media/certificate7.8b62dda3b288c67f4d64.jpg",
+    "static/media/close.svg": "/Mostfa-Portfolio/static/media/close.17825c74c3c6b6934429010ee3f913fd.svg",
+    "index.html": "/Mostfa-Portfolio/index.html",
+    "main.2272d5d6.css.map": "/Mostfa-Portfolio/static/css/main.2272d5d6.css.map",
+    "main.5c1250d2.js.map": "/Mostfa-Portfolio/static/js/main.5c1250d2.js.map",
+    "787.917857b7.chunk.js.map": "/Mostfa-Portfolio/static/js/787.917857b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2272d5d6.css",
+    "static/js/main.5c1250d2.js"
+  ]
+}
