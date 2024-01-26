@@ -23,32 +23,34 @@
 // }
 
 // export default App;
-import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import React from 'react';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+import "./App.css";
 
-import Navbar from './components/Navbar';
-import Themes from './components/Themes'
-import Home from './pages/home/Home';
-import About from './pages/about/About';
-import Portfolio from './pages/portfolio/Portfolio';
-import Contact from './pages/contact/Contact';
+import Navbar from "./components/Navbar";
+import Themes from "./components/Themes";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Portfolio from "./pages/portfolio/Portfolio";
+import Contact from "./pages/contact/Contact";
 function App() {
-  return (<>
-  <BrowserRouter>
-  <nav className='nav'>
-  <Navbar/>
-  </nav>
-  <Themes/>
-  <Routes>
-    <Route index element={<Home/>} />
-    <Route path='about' element={<About/>}></Route>
-    <Route path='portfolio' element={<Portfolio/>}></Route>
-    <Route path='contact' element={<Contact/>}></Route>
-  </Routes>
-  </BrowserRouter>
-  
-  </>
-  )}
+  return (
+    <>
+      <BrowserRouter>
+        <nav className="nav">
+          <Navbar />
+        </nav>
+        <Themes />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Mostfa-Portfolio" element={<Home />} />
+          <Route path="about" element={<About />}></Route>
+          <Route path="portfolio" element={<Portfolio />}></Route>
+          <Route path="contact" element={<Contact />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
 
 export default App;
