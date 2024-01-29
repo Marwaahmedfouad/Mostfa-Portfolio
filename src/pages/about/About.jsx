@@ -73,8 +73,6 @@ function About() {
             })}
           </div>
 
-
-
           <div className="separator"></div>
           <h3 className="section__subtitle subtitle__center">Education</h3>
           <div className="resume__container ">
@@ -87,8 +85,6 @@ function About() {
             </div>
           </div>
         </section>
-
-
 
 
         {/* <section className="Resume" >
@@ -111,6 +107,8 @@ function About() {
 
           </div>
         </section> */}
+
+
 
         {/*  skills  section*/}
         <div className="separator"></div>

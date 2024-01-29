@@ -197,6 +197,12 @@ form.contact__form {
   align-items: center;
   /* background-color: red; */
 }
+.home__data {
+  max-width: 645px;
+  margin-inline: auto;
+  padding-top: 20px;
+  padding-bottom: 144px;
+}
  }
 
 

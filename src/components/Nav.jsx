@@ -7,7 +7,7 @@ const Nav = () => {
   const [showMenu,setShowMenu]=useState(false);
   return (<>
     {/* <nav className='nav'> */}
-      <div className={`${showMenu ? 'nav__menu show-menu':'nav__menu'}`}>
+    <div className={`${showMenu ? 'nav__menu show-menu':'nav__menu'}`}>
         <ul style={{display:'flex',gap:'30px'}}>
           {links.map(({ name, icon, path }, index) => {
             return (
@@ -27,11 +27,13 @@ const Nav = () => {
         </ul>
       </div>
 
-      <div className={`${showMenu ? 'nav__toggle animate-toggle':'nav__toggle'}`} onClick={()=>{setShowMenu(!showMenu)}}>
+      {/* <div className={`${showMenu ? 'nav__toggle animate-toggle':'nav__toggle'}`} onClick={()=>{setShowMenu(!showMenu)}}> */}
+            <div className={showMenu} onClick={()=>{setShowMenu(!showMenu)}}>
         <span></span>
         <span></span>
         <span></span>
       </div> 
+      {/* </div>  */}
 
     {/* </nav> */}
   </>
