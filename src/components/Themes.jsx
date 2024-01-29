@@ -6,7 +6,7 @@ import { BsSun, BsMoon } from 'react-icons/bs';
 import './Themes.css'
 
 const getStorageColor=()=>{
-    let color='red';
+    let color='violete';
     if (localStorage.getItem('color')) {
         color=localStorage.getItem('color');
     }
@@ -36,7 +36,7 @@ function Themes() {
     },[color])
 /********************************************************************************/
     /*light&&dark*/
-    const [theme, setTheme] = useState('light-theme');
+    const [theme, setTheme] = useState('dark-theme');
     // const [theme, setTheme] = useState(getStorageTheme());
     const toggleTheme = () => {
         if (theme=='light-theme') {

@@ -21,7 +21,12 @@ import {
   import Work10 from './assets/uxcertificate.png';
   import Work11 from './assets/Niras_certificate_full.png';
   import Work12 from './assets/certificate7.jpg';
+  import Certificate1 from './assets/img1.jpeg';
+  import Certificate2 from './assets/img2.jpeg';
+  import Certificate3 from './assets/img6.jpeg';
+  import Certificate4 from './assets/img4.jpeg';
 
+  
 
   import Theme1 from './assets/purple.png';
   import Theme2 from './assets/red.png';
@@ -166,7 +171,7 @@ import {
       `,
       item1:` - Architecting & developing GIS& Remote Sensing Solution for automated Violation detection Model Using ERDAS Imagine.`,
       item2:`- Technical/ business management, Generating systematic workflow for better Digital Transformation process.`,
-      img:Work2
+      // img:Work2
     },
     
     {
@@ -285,7 +290,159 @@ import {
       item1: 'Period 16 Days Specialized in Remote Sensing SAR Data processing.',
     },
   ];
+  export const Certificate = [
+    {
+      id: 1,
+      category: 'experience',
+      icon: <FaBriefcase />,
+      year: 'Jan 2021  ',
+      // title: 'TRAINING MANAGER      ',
+      title: 'Edge-Pro Best employee 2021 ',
+      // desc:`Certificate for being effective and productive during my journey of work in Edge-Pro as Remote Sensing Analyst & GIS Solution architect. `,
+      item1:` Certificate for being effective and productive during my journey of work in Edge-Pro as Remote Sensing Analyst & GIS Solution architect.`,
+      // item2:`- Technical/ business management, Generating systematic workflow for better Digital Transformation process.`,
+      img:Certificate1
+    },
+    
+    {
+      id: 2,
+      category: 'experience',
+      icon: <FaBriefcase />,
+      year: 'May 2021      ',
+      title: 'SDI Apprectiantion certificate      <span> Spectrum for information systems </span>',
+      // desc:'DIGITAL TRANSFORMATION PROJECT FOR THE EGYPTIAN ENDOWMENT AUTHORITY (AWQAF) AND ITS AFFILIATED REGIONS',
+      item1:' Awarded from General manager of armed forces surveying authority for being creative contributor in achieving the best practice in SDI Project as GIS Application team leader & Spatial Database Administrator.       ',
+      // item2:'- Technical/ business management, Generating systematic workflow for better Digital Transformation process.',
+      // item3:'-  Development activities reviewing and checking and reviewing the plan backlog.      ',
+      // item4:'-  direct, manage and motivate the project team in the client side & Assign tasks.      ',
+      img:Certificate2
+    },
   
+    {
+      id: 3,
+      category: 'experience',
+      icon: <FaBriefcase />,
+      year: 'Aug 2023      ',
+      title: 'M.I.A Acedmy      ',
+      // desc:'niras has conclude with european union delegation to egypt an agreement (main contract) for implementing the field crop mapping project. support the ongoing operations of the wau, working side by side with the planning sector staff to produce especially accurate crop maps for the delta.'   ,
+       item2:'Awarded from General manager of MIA Academy for being an instructor of GIS/Remote sensing for more than 3 years to the students and being effective in raising GIS/RS awareness between academy’s students.       ',
+       img:Certificate3
+       
+      },
+      
+      {
+        id: 4,
+        category: 'experience',
+        icon: <FaBriefcase />,
+        year: 'Oct 2022        ',
+        title: 'NASA Space App Apprectiation      ',
+        item2:'Awarded from NASA Space App Program for my participation giving GIS/Remote sensing Lecture for NASA participants as a contribution in multiverse edition of NASA competition.        ',
+      //  desc:'creating unified safe schemas for ensdi project on postgresql & postgis, designing and applying required development. creating database diagrams, strategies for a unified database schema. implementing, developing spatial database configuration, and managing permissions levels for stagging and database security. monitoring and improving database performance, capacity, load-balancing abilities for further expansion requirements.      ',
+      img:Certificate4
+    },
+    {
+      id: 5,
+      category: 'experience',
+      icon: <FaBriefcase />,
+      year: '2016',
+      title: 'REMOTE SENSING CERTIFIED INSTRUCTOR      ',
+      desc:'information technology institute, egyptian ministry of communications. preparing, designing remote sensing materials for iti institute students.lecturing both theoretical & practical remote sensing using erdas imagine.',
+      img:Work5
+    },
+  
+    {
+      id: 6,
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2009',
+      // title: 'Bachelor of Arts "Geography"',
+      title: 'Bachelor of Arts "Geography" <span>Ain Shams university </span>',
+      // desc: 'Grade: Good',
+      item1: 'Grade: Good',
+      img:Work6
+
+    },
+  
+    {
+      id: 7,
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2016',
+      title: 'Postgraduate GIS Diploma <span> Ain Shams university   </span>',
+      item1: `Grade: Excellent 
+      Project: Urban Growth Change Detection K.Elsheikh Governorate`,
+      // desc: `Grade: Excellent 
+      // Project: Urban Growth Change Detection K.Elsheikh Governorate`,
+      img:Work7
+
+    },
+    {
+      id: 8,
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2020',
+      title: ' Premaster in Applied GIS/RS <span> Cairo university       </span>',
+      // desc: 'Grade: Very Good      ',
+      item1: 'Grade: Very Good      ',
+      img:Work8
+
+    },
+    {
+      id: 9,
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: 'Started 2022',
+      title: ' Master’s Degree Preparation ',
+      // desc: 'Faculty of African postgraduate "Geography Department" using Geospatial DB, GIS, and RS',
+      item1: 'Faculty of African postgraduate "Geography Department" using Geospatial DB, GIS, and RS',
+      img:Work9
+
+    },
+    {
+      id: 10,
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2020',
+      title: 'Data Analysis<span> UDACITY NANODEGREE      </span>',
+      // desc: 'Period 4 Months | Finished 3 projects Specialized in Data Analysis, Functions, Python Libs',
+      item1: 'Period 4 Months | Finished 3 projects Specialized in Data Analysis, Functions, Python Libs',
+      img:Work2
+
+    },
+    {
+      id: 11,
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2021      ',
+      title: ' FrontEnd Web Development <span> UDACITY NANODEGREE    </span>',
+      // desc: 'Period 4 Months | Finished 3 projects Specialized in JS Functions, Restful API’s, node JS',
+      item1: 'Period 4 Months | Finished 3 projects Specialized in JS Functions, Restful API’s, node JS',
+      img:Work2
+
+    },
+    {
+      id: 12,
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2022      ',
+      title: ' Advanced UX Design <span> UDACITY NANODEGREE    </span>',
+      // desc: 'Period 4 Months | Finished 7 projects Specialized in Prototypes, Design/Managing Apps',
+      item1: 'Period 4 Months | Finished 7 projects Specialized in Prototypes, Design/Managing Apps',
+      img:Work2
+
+    },
+    {
+      id: 13,
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2022      ',
+      title: ' CANADIAN SAR APPLICATION  <span> EO COLLEGE      </span>',
+      // desc: 'Period 16 Days Specialized in Remote Sensing SAR Data processing.',
+      item1: 'Period 16 Days Specialized in Remote Sensing SAR Data processing.',
+      img:Work2
+
+    },
+  ];
   export const skills = [
     {
       id: 1,

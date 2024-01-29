@@ -36,9 +36,9 @@ function About() {
 
 
               <a href={cv} download='' className='button'>
-                  Download Cv <span className='button__icon'>
+                Download Cv <span className='button__icon'>
                   <FaDownload />
-                  </span>
+                </span>
               </a>
 
 
@@ -46,16 +46,16 @@ function About() {
 
 
             <div >
-                    <img src={img} alt='' className='stats__item' width='100%' style={{borderRadius:'10px'}}></img>
+              <img src={img} alt='' className='stats__item' width='100%' style={{ borderRadius: '10px' }}></img>
             </div>
 
 
 
 
 
-            {/* <div className="stats grid">
+            <div className="stats grid">
               <Stats className="stats__item" />
-            </div> */}
+            </div>
           </div>
 
 
@@ -63,7 +63,7 @@ function About() {
 
         <div className="separator"></div>
         {/*  Resume  section*/}
-        <section className="Resume">
+        {/* <section className="Resume">
           <h3 className="section__subtitle subtitle__center">Education</h3>
           <div className="resume__container ">
           <div className="resume_data">
@@ -84,8 +84,30 @@ function About() {
             </div>       
           </div>
         </section>
-        
+         */}
 
+
+
+        <section className="Resume" >
+          <h3 className="section__subtitle subtitle__center">Experience & Education</h3>
+          <div className="resume__container grid" >
+            <div className="resume_data" >
+              {resume.map((val) => {
+                if (val.category === 'experience') {
+                  return (<ResumeItem key={val.id} {...val} />)
+                }
+              })}
+            </div>
+            <div className="resume_data">
+              {resume.map((val) => {
+                if (val.category === 'education') {
+                  return (<ResumeItem key={val.id} {...val} />)
+                }
+              })}
+            </div>
+
+          </div>
+        </section>
         {/*  skills  section*/}
         <div className="separator"></div>
         <section className="skills">

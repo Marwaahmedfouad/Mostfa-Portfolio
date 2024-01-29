@@ -128,3 +128,47 @@ filter: invert(.8);: Partial inversion, 80% of the colors are inverted, and 20% 
 .item__details{
     font-weight: var(--weight-500);
 }
+.portfolio__style{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 50% 50%;
+    gap: 100px;
+    padding-top:20px ;
+    /* align-items: center; */
+    /* background-color: red; */
+}
+
+.portfolio__style::before{
+    content: ' ';
+    position: absolute;
+    left: 300px;
+    /* inset-block: 0; */
+    border-left: 4px solid var(--border-color);
+}
+
+
+
+.portfolio__style {
+    padding-left: 60px;
+    position: relative;
+}
+.portfolio__style::before {
+    content: ' ';
+    position: absolute;
+    left: 20px;
+    inset-block: 0;
+    height: 200px;
+    border-left: 1px solid var(--border-color);
+    z-index: -1;
+}
+
+.resume__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.resume__item1:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.container_portfolio{
+    width: 100%;
+}

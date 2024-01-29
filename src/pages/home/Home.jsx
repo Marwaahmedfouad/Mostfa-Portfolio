@@ -219,11 +219,17 @@ function Home() {
       </section>
 
 
+    
+      <div style={{padding:'10px' , textAlign:'center'}}>
+      <iframe width="75%" height="526" src="https://www.youtube.com/embed/CRx6KCYFBc4" 
+      title="AUC Session_ جزء من محاضرة الاستشعار عن بعد الجامعة الامريكية" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+
       <section className="nav1">
       <Nav/>
-      </section> 
-      <iframe width="100%" height="526" src="https://www.youtube.com/embed/CRx6KCYFBc4" title="AUC Session_ جزء من محاضرة الاستشعار عن بعد الجامعة الامريكية" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              
+      </section>     
     </>
   );
 }
